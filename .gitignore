@@ -1,0 +1,4 @@
+*-artifact-*.json
+ansible-navigator.log
+*.swp
+.vscode/
