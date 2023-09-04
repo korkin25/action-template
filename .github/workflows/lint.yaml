@@ -26,7 +26,7 @@ jobs:
 
       - name: Cache pip data
         id: cache_pip
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.cache/pip
           key: pip-data-${{ runner.os }}-yamllint-${{ env.YAMLLINT_VERSION }}
@@ -34,7 +34,7 @@ jobs:
 
       - name: Cache actionlint
         id: cache_actionlint
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         with:
           path: ~/.local/bin/actionlint
           key: actionlint-${{ env.ACTIONLINT_VERSION }}
