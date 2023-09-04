@@ -1,0 +1,19 @@
+name: 'New action template'
+description: 'Need to update'
+author: Evgenii Kuzakov
+  # inputs:
+  #  yamllint_version:
+  #    description: 'yamllint version'
+  #    required: false
+  #    default: "1.32.0"
+
+  #runs:
+  #  using: 'composite'
+  #  steps:
+  #    - name: Cache some data
+  #      id: cache_some_id
+  #      uses: actions/cache@v2
+  #      with:
+  #        path: ~/.cache/pip
+  #        key: pip-data-${{ runner.os }}-yamllint-${{ inputs.yamllint_version }}
+  #        restore-keys: pip-data-${{ runner.os }}-yamllint-${{ inputs.yamllint_version }}
